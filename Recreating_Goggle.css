@@ -10,6 +10,7 @@ html{
     border-width: thick;
     background-color: white;
     align-items: center;
+    font-size: small;
    /* border: solid 5px blue; */
     
    }
@@ -26,18 +27,7 @@ html{
     margin-left: auto;
 }
 
-.square{
-    height: 30px;
-    width: 30px;
-    background-color: rgb(0, 0, 0);
-    margin-left: 10px;
-}
-.circle{
-    height: 30px;
-    width: 30px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 50%;
-    margin-left: 10px;
+
 }
 .a1{
     display: block;
@@ -68,36 +58,59 @@ html{
 }
 
 .header-logos{
-    width: 3rem;
+    width: 2rem;
+    }
+.search-icon{
+    position: relative;
+    bottom: 0px;
+    left: 35px;
+    width: 1.5rem;
 }
+
 #buttons{
     display: flex;
-    justify-content: center;
+    justify-content: center; 
     margin-top: 30px;
+    position:relative;
+    
+}
+.b2{
+    margin-left: 10px; 
 }
 footer{
-    position: relative;
+    position: absolute;
     left: 0;
     bottom: 0;
-    height: 100%;
+    height: auto;
     width: 100%;
     overflow: hidden;
 }
 #footer-fb{
-    background-color: rgb(165, 165, 165);
+    padding: 10px 10px 20px 10px; 
+    background-color: rgb(228, 228, 228);
     display: flex; 
     justify-content: space-between;
     align-items: flex-end;
     flex-wrap: wrap;
     width: auto;
     height: 100%;
+    color: black;
     
     
+}
+#footer-link{
+    margin-left: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: small;
+}
+#footer-link:hover{
+    text-decoration: underline;
 }
 #carbon-statement{
-    /*justify-self: center;*/
-   
+    margin-left: -130px;
 }
+
 
 
 
